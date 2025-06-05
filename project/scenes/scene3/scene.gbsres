@@ -1,0 +1,133 @@
+{
+  "_resourceType": "scene",
+  "id": "4f915e07-7ef2-457c-a9e5-8d603064ebe5",
+  "_index": 6,
+  "name": "Scene3",
+  "backgroundId": "ab925723-3d4e-4779-aa05-0e0ef5f750c7",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_8",
+  "x": 312,
+  "y": 304,
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "8fe5378f-f5b1-429b-a4c2-9b784e371c8f"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "5",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "af4dc045-ae38-4fb4-a585-32852e42e391"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "My work is \nfamiliar.",
+          "My work is \nroutine.",
+          "My work is\nritual."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": true,
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false,
+        "__comment": true
+      },
+      "id": "248457a2-893b-4064-a009-980d994b1f34"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "5edf8d5e-21d5-48cb-8e4e-928c4572b22f"
+      },
+      "id": "ee6526fc-05fb-4f6b-9c47-c40914f0f336"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "true"
+        },
+        "__collapse": true,
+        "__comment": true
+      },
+      "id": "af1b3022-2dca-4850-9936-85c17f8196da"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "804c83d6-53fd-4e8c-a6b3-0f0b0decb8f0",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 2
+              },
+              "direction": "right",
+              "fadeSpeed": "2"
+            },
+            "id": "63e8b67c-1e7d-44eb-a9c9-db6822fcf266"
+          }
+        ],
+        "false": []
+      },
+      "id": "a0bbf39d-9f0c-4328-addb-787d91e7df6d"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "8ac51ac6-842a-4b45-b13d-841191d132ab"
+}

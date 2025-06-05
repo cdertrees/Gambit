@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "a62ec617-cce7-4fcd-a223-98cc5cb056a5",
+  "name": "hand",
+  "symbol": "bg_hand",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "hand.png",
+  "tileColors": "",
+  "autoColor": false
+}

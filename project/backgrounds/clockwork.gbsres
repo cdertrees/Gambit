@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "c7f2719b-4758-4d9e-9d0d-fc34fac3dd3d",
+  "name": "clockwork",
+  "symbol": "bg_clockwork",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "clockwork.png",
+  "tileColors": "",
+  "autoColor": false
+}

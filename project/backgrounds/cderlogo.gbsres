@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "0eeae6ad-59c5-45f0-89eb-e9d33c090f25",
+  "name": "cderlogo",
+  "symbol": "bg_cderlogo",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "cderlogo.png",
+  "tileColors": "",
+  "autoColor": false
+}

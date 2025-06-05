@@ -1,0 +1,74 @@
+{
+  "_resourceType": "actor",
+  "id": "1ccafcf6-930f-49b8-adbc-56a42f9e89ef",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "005cb7c3-8281-4de2-952d-9f6aba3f9e30",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_1",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "64e4038a-fac8-4ac9-9899-bba508500603"
+      },
+      "id": "aa524c44-45cf-4092-aac6-8b7d52311edf"
+    },
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "3217a58e-4c16-43bb-a602-67af75619d5a"
+      },
+      "id": "fac48753-c237-4c69-80c7-10fba9d87992"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Then three."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "ac8630a3-8afe-4d71-b7df-7037e8011e34"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "0a04b856-36c3-4d4b-a92c-ccc4e3801c9c"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 8,
+  "y": 4,
+  "_index": 1
+}

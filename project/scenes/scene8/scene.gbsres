@@ -1,0 +1,128 @@
+{
+  "_resourceType": "scene",
+  "id": "e51807f0-aafa-4f67-acf9-568ff487b02a",
+  "_index": 9,
+  "name": "Scene8",
+  "backgroundId": "b340b9a2-2865-4e05-91c0-148846a693c8",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_1",
+  "x": 720,
+  "y": 272,
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "91a93ff3-be28-45d6-a97a-7325a6757ee2"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "d4d5dced-9f1c-4452-a70b-61d1d03f1678"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "I watch him play \nwhen the cafe \nisn't busy.",
+          "He takes his turns\nwith such \nintentionality.",
+          "He plays as if",
+          "He's chosen these\nmoves",
+          "and made them",
+          "tens and hundreds",
+          "and thousands of\ntimes.",
+          "And I can't help\nbut wonder, ",
+          "why haven't I \nmade mine?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": true,
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false,
+        "__comment": false
+      },
+      "id": "5f083b0c-1b90-4e00-bb59-d30f9ba7182d"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "true"
+        },
+        "__collapse": false,
+        "__comment": true
+      },
+      "id": "407e9de7-d240-4cac-acf8-fbae177667e6"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "4912bee2-387a-472f-ae4f-6679b6149517",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 2
+              },
+              "direction": "right",
+              "fadeSpeed": 4
+            },
+            "id": "d55a5f96-da8c-4cda-a137-b9dba6aed929"
+          }
+        ],
+        "false": []
+      },
+      "id": "99bfc734-3d54-41c8-8d90-235c9a23e470"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "8ac51ac6-842a-4b45-b13d-841191d132ab"
+}

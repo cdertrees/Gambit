@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "838dc922-1e68-4630-8b57-e3860ef6a26d",
+  "name": "cafe",
+  "symbol": "bg_cafe",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "cafe.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,120 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "Seen Cat",
+      "symbol": ""
+    },
+    {
+      "id": "1",
+      "name": "Seen duck",
+      "symbol": ""
+    },
+    {
+      "id": "2",
+      "name": "Used Radio",
+      "symbol": ""
+    },
+    {
+      "id": "3",
+      "name": "Spoke To Space Dog",
+      "symbol": ""
+    },
+    {
+      "id": "4",
+      "name": "CoffeePickedUp",
+      "symbol": "var_coffeepickedup"
+    },
+    {
+      "id": "5",
+      "name": "Work",
+      "symbol": "var_work"
+    },
+    {
+      "id": "6",
+      "name": "Quest3",
+      "symbol": ""
+    },
+    {
+      "id": "7",
+      "name": "Quest4",
+      "symbol": ""
+    },
+    {
+      "id": "8",
+      "name": "Quest5",
+      "symbol": ""
+    },
+    {
+      "id": "9",
+      "name": "Quest6",
+      "symbol": ""
+    },
+    {
+      "id": "10",
+      "name": "NewGame",
+      "symbol": ""
+    },
+    {
+      "id": "11",
+      "name": "SaveGame",
+      "symbol": ""
+    },
+    {
+      "id": "12",
+      "name": "DustCollected",
+      "symbol": "var_dustcollected"
+    },
+    {
+      "id": "9deb518f-2856-4e03-aaa5-fb97d87ded3d__L0",
+      "name": "DialogueFinished",
+      "symbol": "var_dialoguefinished"
+    },
+    {
+      "id": "abf4c66e-1ebe-4e54-a0aa-6f548fafb11b__L0",
+      "name": "DialogueFinished",
+      "symbol": "var_dialoguefinished_0"
+    },
+    {
+      "id": "0698e966-221d-452a-9eb6-cff0d36257d5__L0",
+      "name": "DialogueFinished",
+      "symbol": "var_dialoguefinished_1"
+    },
+    {
+      "id": "47f88fe3-eba9-41ab-8fa5-145c97e59fd9__L0",
+      "name": "DialogueFinished",
+      "symbol": "var_dialoguefinished_2"
+    },
+    {
+      "id": "57e8b645-3faf-4ef2-8c2d-a44eade53141__L0",
+      "name": "DialogueFinished",
+      "symbol": "var_dialoguefinished_3"
+    },
+    {
+      "id": "492d2ab4-4b92-4822-9427-737eb565cab5__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
+    },
+    {
+      "id": "4f915e07-7ef2-457c-a9e5-8d603064ebe5__L0",
+      "name": "DialogueFinished",
+      "symbol": "var_dialoguefinished_4"
+    },
+    {
+      "id": "804c83d6-53fd-4e8c-a6b3-0f0b0decb8f0__L0",
+      "name": "DialogueFinished",
+      "symbol": "var_dialoguefinished_5"
+    },
+    {
+      "id": "565fa028-cdea-4ef5-ad90-bb7570b510ea__L0",
+      "name": "DialogueFinished",
+      "symbol": "var_dialoguefinished_6"
+    },
+    {
+      "id": "e51807f0-aafa-4f67-acf9-568ff487b02a__L0",
+      "name": "DialogueFinished",
+      "symbol": "var_dialoguefinished_7"
+    }
+  ]
+}

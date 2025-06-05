@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "5b1016cb-1099-4f48-9fd1-06082f4d46e5",
+  "name": "GambitTitle2",
+  "symbol": "bg_gambittitle2",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "GambitTitle2.png",
+  "tileColors": "",
+  "autoColor": false
+}

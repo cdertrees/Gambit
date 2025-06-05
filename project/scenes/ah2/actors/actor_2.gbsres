@@ -1,0 +1,67 @@
+{
+  "_resourceType": "actor",
+  "id": "abbdb7b2-52ae-4ffb-875c-89f3cab87af4",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "000a6dde-cb60-436e-b357-30a529daa139",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_5",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Then three."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "b21632f4-678e-4fc6-8c40-f8d183bb2991"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "0e2bde2f-7d6b-41df-9034-6496196be3d4"
+    },
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "4c7df6bc-f187-48dd-a290-de48cc24f028"
+      },
+      "id": "1125044e-5152-4784-8631-f90d88e186df"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 14,
+  "y": 3,
+  "_index": 1
+}
