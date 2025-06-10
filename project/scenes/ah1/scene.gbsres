@@ -1,0 +1,168 @@
+{
+  "_resourceType": "scene",
+  "id": "47f88fe3-eba9-41ab-8fa5-145c97e59fd9",
+  "_index": 5,
+  "name": "ah1",
+  "backgroundId": "c7f2719b-4758-4d9e-9d0d-fc34fac3dd3d",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f2+0010+0f4+0010+0f4+0010+0f4+0010+0f4+02!00e+02!0f5+02!00c+02!0f7+02!00a+02!0f6+00!0f2+02!008+02!0f2+00!0f4+003+0f2+02!004+02!0f2+003+0f4+005+0f6+005+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0fb+002+0f31+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_6",
+  "x": 1168,
+  "y": 328,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "90c42092-6826-4bd4-bea8-2f349aff1592",
+        "__collapse": false
+      },
+      "id": "f0ab7905-e9fb-4e3d-894a-db08136cab5e"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "9405b44f-7393-4000-8d02-43c7c29cce99",
+        "__collapse": false
+      },
+      "id": "185f5bc4-2346-4c5b-8a13-bcd605b74bed"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "b4de87d6-fc8a-4ceb-9718-f1b93cc89718",
+        "__collapse": false
+      },
+      "id": "25482567-56bd-489b-8ecf-797e034536d8"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "f582d55f-3e07-407a-8cd5-65ce39f270ba",
+        "__collapse": false
+      },
+      "id": "cd427e36-6e8e-4851-b844-2cbe3055c044"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "639856ac-8a3c-44f9-b349-cd33974d172f",
+        "__collapse": false
+      },
+      "id": "b53acd75-7366-454d-8d3e-18885e6f22b1"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "429ce041-0cac-4b4d-bcfc-9f1dc069a2f8",
+        "__collapse": false
+      },
+      "id": "8bf9b20b-6546-4779-8d86-66ad7b837eeb"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "0f24ab54-314d-43e1-83b6-58fbda60da05",
+        "__collapse": false
+      },
+      "id": "7dc7cf09-fd43-42a6-a7a2-bbf1553fa515"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "e57a7da0-dff1-4606-90fd-8a7a30c21272",
+        "__collapse": false
+      },
+      "id": "fbd6d442-1810-43cb-b035-9d6e43b0d3a9"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "3bab40d2-fbde-4822-aeb2-8b6a7a3e5a38",
+        "__collapse": false
+      },
+      "id": "7e6b54ac-c91c-46e5-a2c9-841b0cb1e3da"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "abbdb7b2-52ae-4ffb-875c-89f3cab87af4",
+        "__collapse": false
+      },
+      "id": "ae6bba2a-6526-40d2-8a23-f2a910349996"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "4c7df6bc-f187-48dd-a290-de48cc24f028",
+        "__collapse": false
+      },
+      "id": "68139c52-7eda-4635-ba2e-b754579dc9a2"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "492d2ab4-4b92-4822-9427-737eb565cab5",
+        "__collapse": false
+      },
+      "id": "03caa3f1-e51f-42f7-b8d0-f6cc16cb6c14"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "1f84663d-2e3f-4099-8020-e3356b5137e3"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Every day\nlike clockwork."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": true,
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "8626363f-fd33-497d-b0a9-802939da48f2"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "true"
+        },
+        "__collapse": false
+      },
+      "id": "d575d797-0466-4bd4-baee-9b7f6fd29495"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "8ac51ac6-842a-4b45-b13d-841191d132ab"
+}

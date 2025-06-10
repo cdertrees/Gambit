@@ -3,14 +3,14 @@
   "id": "4f915e07-7ef2-457c-a9e5-8d603064ebe5",
   "_index": 6,
   "name": "Scene3",
-  "backgroundId": "ab925723-3d4e-4779-aa05-0e0ef5f750c7",
+  "backgroundId": "9083fe6c-6ea4-4910-b355-03596457d5a8",
   "tilesetId": "",
   "width": 20,
   "height": 18,
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "",
+  "collisions": "0064+0f14+0078+0f14+0064+",
   "autoFadeSpeed": 1,
   "symbol": "scene_8",
   "x": 312,
@@ -68,11 +68,11 @@
       "id": "248457a2-893b-4064-a009-980d994b1f34"
     },
     {
-      "command": "EVENT_ACTOR_HIDE",
+      "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
         "actorId": "5edf8d5e-21d5-48cb-8e4e-928c4572b22f"
       },
-      "id": "ee6526fc-05fb-4f6b-9c47-c40914f0f336"
+      "id": "427150aa-3a00-4e0f-8d42-bc2894820e3b"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -129,5 +129,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "8ac51ac6-842a-4b45-b13d-841191d132ab"
+  "playerSpriteSheetId": "005cb7c3-8281-4de2-952d-9f6aba3f9e30"
 }

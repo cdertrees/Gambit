@@ -1,0 +1,147 @@
+{
+  "_resourceType": "actor",
+  "id": "f86ecdbc-6637-4e0b-a206-a367e80f815d",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "56915972-9d35-47d1-876e-ff5985b6c55d",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_65",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "One."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "f1bb92eb-506f-447f-a5c4-dd1d1c1a05f8"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "4cca4df3-e0ff-440b-81bf-116517ee8382"
+    },
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "cd99fe79-8f3b-4a5f-b323-b2a88c45e523"
+      },
+      "id": "2c0d3180-aa9e-4497-b3d3-4d04dc2481d6"
+    },
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "b97f47dc-6aef-40b1-ae17-0328d1beb67d"
+      },
+      "id": "7a196225-70d2-4ab0-a932-ff455b8095d3"
+    },
+    {
+      "id": "269e1be6-4609-4109-a299-a48f615312e5",
+      "command": "EVENT_GROUP",
+      "args": {},
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "dac18278-f154-4853-b868-2207f7a03992",
+              "__collapse": true
+            },
+            "id": "d5b500de-ba07-4d84-ac18-854eb04bd136"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "6e457224-4d9f-4913-ac95-dc0238cfc3c1",
+              "__collapse": true
+            },
+            "id": "7079842a-cf9d-4abe-b077-045c53d2248c"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "6032eea1-c106-4a4b-af0c-88aacf0f38a7",
+              "__collapse": true
+            },
+            "id": "7e292942-0753-4415-b540-ea7dec41cdd8"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "a9e5b9ce-c382-40c6-8cad-4da4bacb9e6d",
+              "__collapse": true
+            },
+            "id": "82276a6d-7030-494a-89dd-07301e145022"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "66468c01-9788-4737-9192-67adb86abc90",
+              "__collapse": true
+            },
+            "id": "387be39b-2b69-4a96-8be2-20173f73235a"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "fa3a6e82-1b76-4d57-b06f-e14cffe21c32",
+              "__collapse": true
+            },
+            "id": "095ffb36-415f-4cbf-b322-c07d690b6872"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "c9a26b86-4f40-47b0-9e5c-b8398fc655fd",
+              "__collapse": true
+            },
+            "id": "08028ba0-151a-404b-8357-c98c087d2992"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "11d13bb3-d8ed-4888-821b-de322a04c47f",
+              "__collapse": true
+            },
+            "id": "44c161d8-3a50-48da-a15c-d6108b6fa5fa"
+          }
+        ]
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 9,
+  "y": 1,
+  "_index": 0
+}

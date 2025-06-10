@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "ecddf50c-6640-4788-82ea-6d31c492aaf5",
+  "name": "board",
+  "symbol": "bg_board",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "board.png",
+  "tileColors": ""
+}

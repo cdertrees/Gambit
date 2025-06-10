@@ -115,6 +115,36 @@
       "id": "e51807f0-aafa-4f67-acf9-568ff487b02a__L0",
       "name": "DialogueFinished",
       "symbol": "var_dialoguefinished_7"
+    },
+    {
+      "id": "34ac9c62-b612-489a-993e-eb715ca0f50b__L0",
+      "name": "DialogueFinished",
+      "symbol": "var_dialoguefinished_8"
+    },
+    {
+      "id": "207dd13e-7329-410e-bba1-7b7d95e9ed03__L0",
+      "name": "Local 0",
+      "symbol": "var_local_1"
+    },
+    {
+      "id": "af91bb4c-2f5a-45ce-95fa-9745d5c4e7b3__L0",
+      "name": "DialogueFinished",
+      "symbol": "var_dialoguefinished_9"
+    },
+    {
+      "id": "614db45a-bf6c-4504-a35c-06208185f768__L0",
+      "name": "Local 0",
+      "symbol": "var_local_2"
+    },
+    {
+      "id": "77bb325b-4a80-4760-bdb5-f87b78a1f5b1__L0",
+      "name": "DialogueFinished",
+      "symbol": "var_dialoguefinished_10"
+    },
+    {
+      "id": "814f471d-9977-49ad-b074-22c4fb2dff29__L0",
+      "name": "Local 0",
+      "symbol": "var_local_3"
     }
   ]
 }

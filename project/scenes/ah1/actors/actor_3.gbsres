@@ -1,0 +1,89 @@
+{
+  "_resourceType": "actor",
+  "id": "4c7df6bc-f187-48dd-a290-de48cc24f028",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "56915972-9d35-47d1-876e-ff5985b6c55d",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_6",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Then six."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "e2bee8ec-95b2-483f-887b-79ab2460f656"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": false
+      },
+      "id": "34cc06b3-0d00-4bcb-82ed-a4fbda1022da"
+    },
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "492d2ab4-4b92-4822-9427-737eb565cab5"
+      },
+      "id": "7aab287e-7e52-4669-9274-d4bafff8ce1a"
+    },
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "f582d55f-3e07-407a-8cd5-65ce39f270ba"
+      },
+      "id": "8e48836c-f28d-4cd0-8c2f-4b684612f6c7"
+    },
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "639856ac-8a3c-44f9-b349-cd33974d172f"
+      },
+      "id": "21df63a7-f265-4589-93ad-6cb5cc583078"
+    },
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "429ce041-0cac-4b4d-bcfc-9f1dc069a2f8"
+      },
+      "id": "a9e6beaa-b620-4f99-9b88-3b59206592a2"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 9,
+  "y": 7,
+  "_index": 2
+}

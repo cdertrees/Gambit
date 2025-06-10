@@ -6,7 +6,7 @@
   "animate": false,
   "spriteSheetId": "40dcd163-9f72-4861-8131-b01eb9baa000",
   "prefabId": "",
-  "direction": "down",
+  "direction": "right",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -39,7 +39,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "My work is routine."
+                "My work is \nroutine."
               ],
               "__section": "text",
               "avatarId": "",
@@ -62,18 +62,18 @@
             "id": "8d391469-8ad6-42e2-85cc-017dffd78121"
           },
           {
-            "command": "EVENT_ACTOR_SHOW",
+            "command": "EVENT_ACTOR_ACTIVATE",
             "args": {
               "actorId": "ce4a81a7-ea8f-4c0c-914a-064c6808e24a"
             },
-            "id": "ae2d1a78-1d0e-4d4f-889f-9f797842d9e9"
+            "id": "93906bd7-4d2d-4383-be3f-3767441267e9"
           },
           {
-            "command": "EVENT_ACTOR_HIDE",
+            "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
               "actorId": "$self$"
             },
-            "id": "00292709-d680-4b77-b1c1-6ece0a87aa4f"
+            "id": "f0a01028-1ecf-4812-8aa7-152ad4d9e5cc"
           }
         ],
         "false": []
@@ -98,7 +98,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 4,
-  "y": 10,
+  "x": 0,
+  "y": 9,
   "_index": 1
 }

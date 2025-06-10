@@ -1,0 +1,74 @@
+{
+  "_resourceType": "scene",
+  "id": "d6fe662a-b4ae-47a8-9f24-421592de3aed",
+  "_index": 15,
+  "name": "Scene 16",
+  "backgroundId": "838dc922-1e68-4630-8b57-e3860ef6a26d",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_16",
+  "x": 728,
+  "y": 88,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "309fb23e-d844-4e5d-ac3e-7ca4f9ae4c04"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "He plays as if",
+          "He's chosen these\nmoves"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "ce337ffb-8d22-48f4-981d-3e49962fb201"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "7b4e1358-947c-4cad-be46-66dcae790ead",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 15
+        },
+        "direction": "",
+        "fadeSpeed": 2
+      },
+      "id": "4ac35b27-fc9f-453d-908a-b284ebd9c716"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": false
+}

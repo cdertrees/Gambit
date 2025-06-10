@@ -1,0 +1,48 @@
+{
+  "_resourceType": "scene",
+  "id": "93809e2e-8d93-46fd-ba50-5e7782e92873",
+  "_index": 13,
+  "name": "Scene 14",
+  "backgroundId": "bed2c2f3-2cb4-43e5-9b9d-e3726b081162",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f3e+0010+0f4+0010+0f4+0010+0f10+004+0f10+004+0f4+0010+0f4+0010+0f4+002+0f2+008+0f2+002+0f4+002+0f2+008+0f2+002+0f4+002+0f2+008+0f2+002+0f4+002+0f2+008+0f2+002+0f4+0010+0fb+002+0f31+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_14",
+  "x": 712,
+  "y": 496,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "When that happens,\nhe plays by \nhimself."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "e10dd10b-01be-49d6-9046-ed79350d1ef3"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

@@ -4,7 +4,7 @@
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "005cb7c3-8281-4de2-952d-9f6aba3f9e30",
+  "spriteSheetId": "56915972-9d35-47d1-876e-ff5985b6c55d",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -27,7 +27,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "It started \nwith only one."
+          "It started \nwith one."
         ],
         "__section": "text",
         "avatarId": "",

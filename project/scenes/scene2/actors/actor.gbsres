@@ -29,7 +29,7 @@
             "type": "true"
           }
         },
-        "__collapseElse": true
+        "__collapseElse": false
       },
       "children": {
         "true": [
@@ -80,11 +80,11 @@
               "sceneId": "4f915e07-7ef2-457c-a9e5-8d603064ebe5",
               "x": {
                 "type": "number",
-                "value": 1
+                "value": 0
               },
               "y": {
                 "type": "number",
-                "value": 10
+                "value": 9
               },
               "direction": "",
               "fadeSpeed": "2"
@@ -92,7 +92,16 @@
             "id": "36ec9833-f059-4e01-8450-db48f3fedaf5"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "2f2806af-f8a6-44fd-9d03-09a44d0059f7"
+            },
+            "id": "1b0a5439-6829-41f7-972e-7f6614e96726"
+          }
+        ]
       },
       "id": "e9fab075-d25c-4c6b-88f4-db80e2a55785"
     }
@@ -133,7 +142,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 7,
+  "x": 6,
   "y": 13,
   "_index": 0
 }

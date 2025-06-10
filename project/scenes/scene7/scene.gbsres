@@ -3,18 +3,18 @@
   "id": "565fa028-cdea-4ef5-ad90-bb7570b510ea",
   "_index": 8,
   "name": "Scene7",
-  "backgroundId": "6fad1892-bcb2-4924-bd1c-1e4d03dfeabb",
+  "backgroundId": "9bcee9d1-b921-4b53-b79b-675694047d05",
   "tilesetId": "",
   "width": 20,
   "height": 18,
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "",
+  "collisions": "0f3e+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0fb+002+0f31+",
   "autoFadeSpeed": 1,
   "symbol": "scene_10",
-  "x": 504,
-  "y": 496,
+  "x": 720,
+  "y": 672,
   "script": [
     {
       "command": "EVENT_SET_VALUE",
@@ -38,8 +38,9 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Sometimes there's \nonly one guy who\nshows up.",
-          "When that happens,\nhe plays by \nhimself."
+          "As time goes on, \nthe number of \nplayers gets",
+          "less and less \nconsistent.",
+          "Sometimes there's \nonly one guy who\nshows up. "
         ],
         "__section": "text",
         "avatarId": "",
@@ -92,16 +93,16 @@
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "e51807f0-aafa-4f67-acf9-568ff487b02a",
+              "sceneId": "93809e2e-8d93-46fd-ba50-5e7782e92873",
               "x": {
                 "type": "number",
-                "value": 2
+                "value": 4
               },
               "y": {
                 "type": "number",
-                "value": 15
+                "value": 4
               },
-              "direction": "up",
+              "direction": "right",
               "fadeSpeed": 2
             },
             "id": "af5723c2-4b63-4c66-8d51-dbb004d61cd3"

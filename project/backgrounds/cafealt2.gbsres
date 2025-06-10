@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "bed2c2f3-2cb4-43e5-9b9d-e3726b081162",
+  "name": "cafealt2",
+  "symbol": "bg_cafealt2",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "cafealt2.png",
+  "tileColors": "",
+  "autoColor": false
+}

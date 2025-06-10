@@ -6,7 +6,7 @@
   "animate": false,
   "spriteSheetId": "52ad34df-f245-4b2a-b94c-a82af1002871",
   "prefabId": "",
-  "direction": "down",
+  "direction": "left",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -39,7 +39,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "My work is familiar"
+                "My work is \nfamiliar."
               ],
               "__section": "text",
               "avatarId": "",
@@ -57,23 +57,24 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "48edd5da-c789-4ab3-ab51-068a5906234a"
           },
           {
-            "command": "EVENT_ACTOR_SHOW",
+            "command": "EVENT_ACTOR_ACTIVATE",
             "args": {
-              "actorId": "5edf8d5e-21d5-48cb-8e4e-928c4572b22f"
+              "actorId": "5edf8d5e-21d5-48cb-8e4e-928c4572b22f",
+              "__collapse": false
             },
-            "id": "2044818e-58b0-423d-bb98-c9c2533eed7f"
+            "id": "ccf538c3-d6a4-47ff-b4a4-148f5cb1d2b2"
           },
           {
-            "command": "EVENT_ACTOR_HIDE",
+            "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
               "actorId": "$self$"
             },
-            "id": "c1fb53a6-ee6a-458e-94e2-e553e8fde5fc"
+            "id": "a2fe917c-3d88-4437-94e2-3c2b5eae59f4"
           }
         ],
         "false": [
@@ -121,11 +122,11 @@
                   "id": "318dfd89-a51a-4f97-b593-9b14b4ea37b7"
                 },
                 {
-                  "command": "EVENT_ACTOR_HIDE",
+                  "command": "EVENT_ACTOR_DEACTIVATE",
                   "args": {
                     "actorId": "$self$"
                   },
-                  "id": "70ce991e-50b3-4dcd-81c0-53ab2a77ed8c"
+                  "id": "83f3deb7-c73d-4edb-9196-d7912fc24ed9"
                 },
                 {
                   "command": "EVENT_SWITCH_SCENE",
@@ -171,7 +172,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 16,
-  "y": 10,
+  "x": 18,
+  "y": 9,
   "_index": 0
 }

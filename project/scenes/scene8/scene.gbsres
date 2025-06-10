@@ -13,8 +13,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
-  "x": 720,
-  "y": 272,
+  "x": 992,
+  "y": 528,
   "script": [
     {
       "command": "EVENT_SET_VALUE",
@@ -38,8 +38,8 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "I watch him play \nwhen the cafe \nisn't busy.",
-          "He takes his turns\nwith such \nintentionality.",
+          "",
+          "",
           "He plays as if",
           "He's chosen these\nmoves",
           "and made them",

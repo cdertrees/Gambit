@@ -3,7 +3,7 @@
   "id": "804c83d6-53fd-4e8c-a6b3-0f0b0decb8f0",
   "_index": 7,
   "name": "Scene4",
-  "backgroundId": "b340b9a2-2865-4e05-91c0-148846a693c8",
+  "backgroundId": "9bcee9d1-b921-4b53-b79b-675694047d05",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -40,7 +40,7 @@
         "text": [
           "I ask the same \nquestions and see\nthe same people.",
           "Some people study,\nothers game. Some\nsketch,  ",
-          "But my favorite\ngroup plays chess."
+          "but my favorite\ngroup plays chess."
         ],
         "__section": "text",
         "avatarId": "",

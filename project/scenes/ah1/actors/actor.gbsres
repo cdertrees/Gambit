@@ -1,0 +1,147 @@
+{
+  "_resourceType": "actor",
+  "id": "c0faa766-1b2a-438c-850f-a25d2bc3b4a6",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "56915972-9d35-47d1-876e-ff5985b6c55d",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_4",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "One."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "77a66f77-9222-476d-93c1-956e186427ba"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "933eec1a-f861-4e16-937c-4f2228ba9631"
+    },
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "abbdb7b2-52ae-4ffb-875c-89f3cab87af4"
+      },
+      "id": "7e182f81-9230-4b06-8c8b-5bb134ed226b"
+    },
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "90c42092-6826-4bd4-bea8-2f349aff1592"
+      },
+      "id": "3ffb822a-9417-4b41-b2a6-b500c97833a9"
+    },
+    {
+      "id": "d5c155a1-d7d2-442a-8fb0-b1e844e52f02",
+      "command": "EVENT_GROUP",
+      "args": {},
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "9405b44f-7393-4000-8d02-43c7c29cce99",
+              "__collapse": true
+            },
+            "id": "5b7324eb-4c15-4fa2-85f7-c66b5e549bb3"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "b4de87d6-fc8a-4ceb-9718-f1b93cc89718",
+              "__collapse": true
+            },
+            "id": "490184eb-872d-4da7-96b7-0422534b9627"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "f582d55f-3e07-407a-8cd5-65ce39f270ba",
+              "__collapse": true
+            },
+            "id": "e3686e23-a9cb-449b-8ff1-abc4c16343d3"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "639856ac-8a3c-44f9-b349-cd33974d172f",
+              "__collapse": true
+            },
+            "id": "12a6021c-b598-408b-be5e-9c2354a42945"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "429ce041-0cac-4b4d-bcfc-9f1dc069a2f8",
+              "__collapse": true
+            },
+            "id": "7d277cc1-13c9-4dd6-afe0-11b205481b88"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "0f24ab54-314d-43e1-83b6-58fbda60da05",
+              "__collapse": true
+            },
+            "id": "ecda1a72-e7e2-44f1-897a-f0d484b28813"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "e57a7da0-dff1-4606-90fd-8a7a30c21272",
+              "__collapse": true
+            },
+            "id": "1b9ff19d-04be-463a-81ec-35d4d3135eef"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "3bab40d2-fbde-4822-aeb2-8b6a7a3e5a38",
+              "__collapse": true
+            },
+            "id": "5b656b1e-17a7-4302-9dd2-100746ea6f98"
+          }
+        ]
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 9,
+  "y": 2,
+  "_index": 0
+}
