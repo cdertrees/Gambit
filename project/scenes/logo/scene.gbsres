@@ -45,7 +45,7 @@
       "id": "aee7e5df-b1f1-48f0-a0b4-e731a0744ae7",
       "command": "EVENT_WAIT",
       "args": {
-        "time": 2
+        "time": 1.5
       }
     },
     {

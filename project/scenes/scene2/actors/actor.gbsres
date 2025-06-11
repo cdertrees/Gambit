@@ -80,7 +80,7 @@
               "sceneId": "4f915e07-7ef2-457c-a9e5-8d603064ebe5",
               "x": {
                 "type": "number",
-                "value": 0
+                "value": 4
               },
               "y": {
                 "type": "number",
@@ -97,7 +97,7 @@
             "command": "EVENT_ACTOR_EMOTE",
             "args": {
               "actorId": "$self$",
-              "emoteId": "2f2806af-f8a6-44fd-9d03-09a44d0059f7"
+              "emoteId": "b05cf6ce-f23a-4df4-b889-96eaa6b40afd"
             },
             "id": "1b0a5439-6829-41f7-972e-7f6614e96726"
           }

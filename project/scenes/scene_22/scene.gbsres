@@ -11,20 +11,42 @@
   "paletteIds": [],
   "spritePaletteIds": [],
   "collisions": "0f3e+0010+0f4+0010+0f4+0010+0f10+004+0f10+004+0f4+0010+0f4+0010+0f4+002+0f2+008+0f2+002+0f4+002+0f2+008+0f2+002+0f4+002+0f2+008+0f2+002+0f4+002+0f2+008+0f2+002+0f4+0010+0fb+002+0f31+",
-  "autoFadeSpeed": 2,
+  "autoFadeSpeed": 3,
   "symbol": "scene_22",
   "x": 904,
   "y": 352,
   "script": [
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "7",
+        "value": {
+          "type": "number",
+          "value": 2
+        }
+      },
+      "id": "c5acd195-8643-4157-8b0b-9e49a7a40aff"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "975b65ea-f9fb-4488-825b-bfad9910dc69"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30
+      },
+      "id": "66aab3b1-1b4b-4462-8cc9-cc04ab452db9"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Why ",
-          "haven't",
-          "I ",
-          "made ",
-          "mine?"
+          "%t$07$Why haven't I \nmade mine?"
         ],
         "__section": "text",
         "avatarId": "",
@@ -36,7 +58,7 @@
         "position": "bottom",
         "clearPrevious": true,
         "showFrame": "true",
-        "speedIn": -1,
+        "speedIn": 2,
         "speedOut": -1,
         "closeWhen": "key",
         "closeButton": "a",
@@ -44,14 +66,6 @@
         "closeDelayFrames": 30
       },
       "id": "004c74fc-ba6e-47e0-bc36-7f0157e2cbb9"
-    },
-    {
-      "command": "EVENT_WAIT",
-      "args": {
-        "time": 0.5,
-        "frames": 30
-      },
-      "id": "d0a7a206-deac-4894-a1de-a811606cacbe"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
@@ -69,6 +83,14 @@
         "fadeSpeed": 3
       },
       "id": "5d589907-b074-44b0-9b59-e139c0b5bee4"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.75,
+        "frames": 30
+      },
+      "id": "39a98016-16ed-4f85-9ef2-c7ed471a2d6a"
     }
   ],
   "playerHit1Script": [],

@@ -159,8 +159,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "and thousands of\ntimes.",
-          "And I can't help\nbut wonder, "
+          "and thousands of\ntimes."
         ],
         "__section": "text",
         "avatarId": "",
@@ -228,7 +227,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "why haven't I \nmade mine?"
+          "And I can't help\nbut wonder, "
         ],
         "__section": "text",
         "avatarId": "",
@@ -252,16 +251,16 @@
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "4912bee2-387a-472f-ae4f-6679b6149517",
+        "sceneId": "bf0a598e-2ca1-4cf7-8a5e-8e1919aa7770",
         "x": {
           "type": "number",
-          "value": 0
+          "value": 4
         },
         "y": {
           "type": "number",
-          "value": 0
+          "value": 9
         },
-        "direction": "",
+        "direction": "down",
         "fadeSpeed": 3
       },
       "id": "a32ce7be-6f3f-4fe4-a92e-eb81245e6346"
