@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "20499ba8-4891-42bb-9b3a-1cf9cf674179",
+  "name": "GambitIcon",
+  "symbol": "bg_gambiticon",
+  "width": 135,
+  "height": 135,
+  "imageWidth": 1080,
+  "imageHeight": 1080,
+  "filename": "GambitIcon.png",
+  "tileColors": ""
+}
